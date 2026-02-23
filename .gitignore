@@ -1,0 +1,37 @@
+# Terraform working dir
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+plan.out
+
+# Local variable files (may contain sensitive values)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+!terraform.tfvars.example
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keys / cert artifacts
+*.pem
+*.key
+*.p12
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

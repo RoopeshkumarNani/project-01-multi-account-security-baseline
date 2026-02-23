@@ -1,0 +1,11 @@
+aws_region               = "ap-southeast-1"
+management_profile       = "management"
+log_archive_profile      = "logarchive"
+security_tooling_profile = "securitytooling"
+
+log_archive_account_email     = "replace+logarchive@example.com"
+security_tooling_account_email = "replace+securitytooling@example.com"
+dev_workload_account_email    = "replace+devworkload@example.com"
+
+org_trail_bucket_name      = "replace-with-globally-unique-bucket-name"
+object_lock_retention_days = 30
